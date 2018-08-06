@@ -1,0 +1,100 @@
+* {font-family: Nunito, 'sans-serif'; }
+
+@font-face {
+			font-family: gotham;
+			src: url(./css/Gotham-Rounded-Book.ttf);
+		}
+
+.inside{		   
+	margin-top: 150px;
+  margin-left: 40px;
+}
+
+.inside-2{       
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.arrow-img{
+  transform: rotate(-20deg);
+  margin-top: 12px;
+}
+
+.artist-text{
+	font-size: 30px;
+	color: #404040;
+}
+
+.btn-row{
+  margin-top: 30px;
+}
+
+.btn-search{
+  margin-left: 70px;
+  font-size: 18px;
+  background: #02aca3; /* Old browsers */
+  background: -moz-linear-gradient(top, #02aca3 0%, #0b8a8f 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #02aca3 0%,#0b8a8f 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #02aca3 0%,#0b8a8f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#02aca3', endColorstr='#0b8a8f',GradientType=0 ); /* IE6-9 */
+  border: none;
+  padding: 7px 30px;
+  -webkit-box-shadow: 3px 3px 5px 2px rgba(28,88,88,1);
+  -moz-box-shadow: 3px 3px 5px 2px rgba(28,88,88,1);
+  box-shadow: 3px 3px 5px 2px rgba(28,88,88,1);
+}
+
+.btn-search:focus{
+  border-color: rgba(28,88,88,1)!important;
+}
+
+.w100{
+  width: 100%!important;
+}
+
+.mr-15{
+  margin-right: 15px!important;
+}
+
+.modal{
+  margin-top: 50px;
+}
+
+h6{font-size: 20px;}
+
+span.clear-anchor{
+  margin-left: 10px;
+  margin-top: 10px;
+  color: blue;
+  font-size: 20px;
+  cursor: pointer;
+
+}
+
+@media (max-width: 575.98px)  { 
+  .arrow-image{display: hidden; !important;}
+
+  .inside,.inside-2{       
+    margin-left: 0px!important;
+    padding-left: 0px!important;
+    margin-right: 0px;
+
+  }
+
+  .artist-text{
+    font-size: 20px!important;
+  }
+
+  .btn-search{
+    font-size: 14px!important;
+    margin-top: 15px;
+    margin-left: 40px;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
